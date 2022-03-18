@@ -13,6 +13,10 @@
 }
 
 /* ------------------ */
+body{
+    font-family:'Montserrat';
+}
+
 .container{
     margin: auto;
     width: 80%;
@@ -20,8 +24,24 @@
 
 header{
     min-height: 90px;
-    background-color: plum;
-    margin-top: 20px;
+}
+
+header > img{
+    width: 230px;
+    height: 90px;
+    padding-right: 20px;
+    border-right: solid lightgray;
+}
+
+nav{
+    margin-top: 40px;
+}
+
+nav > a{
+    color:gray;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-top: 20px;
 }
 
 /* Main */
