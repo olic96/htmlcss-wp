@@ -46,9 +46,17 @@ nav > a{
 
 /* Main */
 .section-1{
-    min-height: 300px;
-    background-color: rgb(232, 232, 57);
-    margin-top: 20px;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    min-height: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.hero-text{
+   color: gray;
+   padding: 310px 30px 40px;
+   max-width: 520px;
 }
 
 .section-2{
