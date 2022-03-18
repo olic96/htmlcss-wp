@@ -128,6 +128,10 @@ p{
 
 footer{
     min-height: 40px;
-    background-color: purple;
-    margin-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heart{
+    color: red;
 }
