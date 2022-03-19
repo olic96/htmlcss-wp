@@ -12,6 +12,12 @@
     clear: both;
 }
 
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 100%;
+}
+
 /* ------------------ */
 body{
     font-family:'Montserrat', sans-serif;
@@ -58,6 +64,7 @@ nav > a{
 .hero-text{
    padding: 310px 40px 50px;
    max-width: 520px;
+   color: white;
 }
 /* End */
 
@@ -97,7 +104,7 @@ nav > a{
     background-repeat: no-repeat;
     height: 150px;
     width: 100%;
-    border: solid lightgray;
+    
 }
 
 .col-left, .col-mid, .col-right{
